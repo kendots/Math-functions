@@ -96,7 +96,7 @@ double ex (double x)
 
 
 
-double ln( double x)
+double ln (double x)
 {
 	if (x<eps)
 	{
@@ -142,7 +142,7 @@ double ln( double x)
 }
 
 
-double power(double x, double y)
+double power (double x, double y)
 {
 	double z=1,v=1;
 	int i,r;
@@ -200,7 +200,7 @@ double sq (double t)
 }
 
 
-double sine(double x)
+double sine (double x)
 {
 	double s=0,v=1;
 	int i=1,r=1;
@@ -235,7 +235,7 @@ double cosine (double x)
 }
 
 
-double arccos(double x)
+double arccos (double x)
 {
 	if (x>1.0 || x<-1.0)
 	{
@@ -254,7 +254,7 @@ double arccos(double x)
 }
 
 
-double arcsin(double x)
+double arcsin (double x)
 {
 	if (x>1.0 || x<-1.0)
 	{
