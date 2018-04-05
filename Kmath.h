@@ -180,7 +180,7 @@ double sq (double t)
 {
 	if (t<0)
 	{ 
-		printf("The parameter can't be negative\n");
+		puts("The parameter can't be negative");
 		return 0;
 	}
 
