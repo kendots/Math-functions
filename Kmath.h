@@ -40,7 +40,6 @@ double fix (double x, int n)
 		t=t*0.1;
 	
 
-	printf("z = %g\n",z);
 	if (z>=0.5-0.1*t)
 		return (y+1)*t;
 	return y*t;
@@ -90,7 +89,6 @@ double ex (double x)
 		y*=i;
 		r*=x;
 	}
-	printf("Iter = %g\n",i);
 	return s;
 }
 
@@ -137,7 +135,6 @@ double ln (double x)
 		t=t*z*z;
 	}
 
-	printf("i = %g \t m = %g\n",(i-3)/2,m);
 	return 2*s+m*LN2+n*LN10;
 }
 
